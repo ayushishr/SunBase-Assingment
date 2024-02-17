@@ -50,8 +50,8 @@ body{
     border-right:1px solid black ;
 }
 
-.button7 {
-   width: 10rem;
+.button {
+   width: 14rem;
    border-radius: 5px;
    background-color: white;
    color: #101010;
@@ -139,19 +139,15 @@ body{
     width:90%;
     margin: 2px auto;
     border: 1px solid #bababa;
-    border-radius: 5px;
-
-  
+    border-radius: 5px;  
 }
 
-
-
-.parent {
+.mainP {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
 }
-.child {
+.children {
     margin: 5px;
     padding: 10px;
     background-color: white;
@@ -163,25 +159,4 @@ body{
 
 #save{
     cursor: pointer;
-}
-
-@media screen and (max-width:600px){
-  #c1{
-    font-size: small;
-  }
-  .button7{
-     width: 10rem;
-    font-size: small;
-  }
-  .v1::after {
-    content: "+" !important; /* Add the plus sign as content */
-    padding-left: 2px; /* Adjust padding as needed */
-  }
-  
-  .star{
-    display: none;
-  }
-  
-    
-    
 }
